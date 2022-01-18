@@ -8,7 +8,7 @@ def index():
 
 @app.route('/page')
 def page():
-    return render_template(index.html)
+    return render_template('index.html')
 
 
 app.run(debug=True)
